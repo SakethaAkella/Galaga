@@ -1,0 +1,11 @@
+#mycanvas{
+  border: 5px solid darkblue;
+  background : url("darksky.jpg");
+  -webkit-animation: animatedBackground 20s linear infinite;
+  background-repeat: repeat-y;
+}
+
+@-webkit-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0 1200px; }
+}
